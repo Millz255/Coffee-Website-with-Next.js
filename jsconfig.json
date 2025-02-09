@@ -1,0 +1,9 @@
+// jsconfig.json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // "paths": {  <-- Comment this out or remove it
+    //   "@/*": ["src/*"]
+    // }
+  }
+}

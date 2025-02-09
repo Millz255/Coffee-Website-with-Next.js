@@ -1,0 +1,61 @@
+/* /styles/global.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --amber-900: #78350F;
+  --amber-800: #92400E;
+  --amber-700: #B45309;
+  --amber-600: #D97706;
+  --amber-500: #F59E0B;
+  --amber-200: #FDE68A;
+  --amber-100: #FEF3C7;
+  --amber-50: #FFFBEB;
+  --stone-50: #FAFAF9;
+  --orange-50: #FFF7ED;
+  --green-600: #16A34A;
+  --green-500: #22C55E;
+  --white-60: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background: var(--stone-50); /* Light grey for gradient */
+  color: var(--amber-800); /* Dark text */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: var(--amber-500); /* Amber accents */
+}
+
+button {
+  background-color: var(--amber-700); /* Button color */
+  color: white;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+}
+
+button:hover {
+  background-color: var(--amber-600); /* Button hover */
+}
+
+.card {
+  background-color: var(--white-60); /* Semi-transparent white for cards */
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+header, footer {
+  background-image: linear-gradient(to bottom right, #FAFAF9, #FFF7ED); /* Gradient background */
+}
+
+.success {
+  background-color: var(--green-500); /* Success state */
+}
+
+.success-button {
+  background-color: var(--green-600); /* Form success button */
+  color: white;
+}
