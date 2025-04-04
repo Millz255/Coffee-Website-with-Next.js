@@ -13,11 +13,14 @@ export default function ProductCard({ product }) {
           <p><strong>Customization:</strong> {product.customization}</p>
         </div>
 
-        {/* Hidden Price Section */}
+        {/* Email Link Section */}
         <div className="mt-6 flex justify-between items-center">
-          <button className="px-4 py-2 bg-amber-900 text-white rounded-md transition hover:bg-amber-800">
+          <a
+            href="mailto:sales@citycoffee.co.tz"
+            className="px-4 py-2 bg-amber-900 text-white rounded-md transition hover:bg-amber-800 text-center"
+          >
             Order Now
-          </button>
+          </a>
         </div>
       </div>
     </div>

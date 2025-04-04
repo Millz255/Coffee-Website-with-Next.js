@@ -7,9 +7,36 @@ import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";  // Import the Navbar component
 
 const featuredProducts = [
-  { id: 1, name: "Arabica Coffee", image: "/coffee-arabica.jpg", category: "Arabica", price: 12000 },
-  { id: 2, name: "Robusta Coffee", image: "/coffee-robusta.jpg", category: "Robusta", price: 10000 },
-  { id: 3, name: "Espresso Blend", image: "/coffee-espresso.jpg", category: "Espresso", price: 15000 },
+  {
+    id: 1,
+    name: "Arabica Coffee",
+    image: "/coffee-arabica.jpg",
+    category: "Arabica",
+    price: 12000,
+    MOQ: 100, // Minimum Order Quantity
+    packaging: "100g, 250g, 500g", // Types of packaging
+    description: "Premium Arabica coffee, sourced from the best farms."
+  },
+  {
+    id: 2,
+    name: "Robusta Coffee",
+    image: "/coffee-robusta.jpg",
+    category: "Robusta",
+    price: 10000,
+    MOQ: 150, // Minimum Order Quantity
+    packaging: "200g, 500g", // Types of packaging
+    description: "Rich and strong Robusta coffee for espresso lovers."
+  },
+  {
+    id: 3,
+    name: "Espresso Blend",
+    image: "/coffee-espresso.jpg",
+    category: "Espresso",
+    price: 15000,
+    MOQ: 200, // Minimum Order Quantity
+    packaging: "250g, 1kg", // Types of packaging
+    description: "A bold espresso blend for an authentic coffee experience."
+  }
 ];
 
 export default function Home() {
