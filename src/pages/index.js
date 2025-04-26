@@ -4,7 +4,7 @@ import Hero from "../components/Hero";
 import Stats from "../components/Stats";
 import ProductCard from "../components/ProductCard";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";  // Import the Navbar component
+import Navbar from "../components/Navbar";  
 
 const featuredProducts = [
   { id: 1, name: "Arabica Coffee", image: "/coffee-arabica.jpg", category: "Arabica", price: 12000 },
